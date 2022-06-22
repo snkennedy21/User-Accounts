@@ -1,9 +1,9 @@
 .form-container {
   background-color: white;
-  width: 70%;
   padding: 1rem;
   border-radius: 5px;
   margin-top: 3rem;
+  width: 30rem;
 }
 
 .form {
@@ -22,4 +22,9 @@
   border: none;
   padding: 0.5rem 1rem;
   width: 8rem;
+}
+
+.form__button:hover {
+  cursor: pointer;
+  background-color: rgb(75, 23, 124);
 }
