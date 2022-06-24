@@ -5,12 +5,7 @@ import Modal from "./Components/Modal";
 import { useState } from "react";
 
 function App() {
-  const items = [
-    { name: "Brian", age: 34, id: "e1" },
-    { name: "James", age: 31, id: "e2" },
-    { name: "Moyra", age: 25, id: "e3" },
-    { name: "Sean", age: 28, id: "e4" },
-  ];
+  const items = [];
 
   const [listItems, setListItems] = useState(items);
   const [errorMessage, setErrorMessage] = useState("");

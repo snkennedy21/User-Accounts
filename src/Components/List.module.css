@@ -1,5 +1,7 @@
 .list-container {
   display: flex;
-  background-color: white;
   width: 30rem;
+  border-radius: 5px;
+  margin-top: 3rem;
+  background-color: white;
 }

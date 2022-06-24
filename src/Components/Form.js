@@ -48,12 +48,14 @@ const Form = function (props) {
           onChange={usernameChangeHandler}
           className={`${styles["form__input"]}`}
           value={enteredUsername}
+          type="text"
         ></input>
         <label className={`${styles["form__label"]}`}>Age (Years)</label>
         <input
           onChange={ageChangeHandler}
           className={`${styles["form__input"]}`}
           value={enteredAge}
+          type="number"
         ></input>
         <button
           text={text}
